@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b544a5d3adb64d44b6eda3bac2227fe, type: 3}
-  m_Name: Picker SO2
+  m_Name: SwitchSO2
   m_EditorClassIdentifier: 

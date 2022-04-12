@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace SwitchAttribute
 {
-    public enum PickerEnum
+    public enum SwitchEnum
     {
         EnumValue1,
         EnumValue2,
@@ -14,15 +14,15 @@ namespace SwitchAttribute
     {
         [Header("Support for Enum")]
         [SwitchKey("My Key")]
-        public PickerEnum myEnum;
+        public SwitchEnum myEnum;
 
-        [SwitchValue("My Key", PickerEnum.EnumValue1)]
+        [SwitchValue("My Key", SwitchEnum.EnumValue1)]
         public float ifEnumValue1 = 1f;
 
-        [SwitchValue("My Key", PickerEnum.EnumValue2)]
+        [SwitchValue("My Key", SwitchEnum.EnumValue2)]
         public float ifEnumValue2 = 2f;
 
-        [SwitchValue("My Key", PickerEnum.EnumValue3)]
+        [SwitchValue("My Key", SwitchEnum.EnumValue3)]
         public float ifEnumValue3 = 3f;
 
         [Header("Support for boolean")]
