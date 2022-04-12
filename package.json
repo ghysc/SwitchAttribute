@@ -1,6 +1,6 @@
 {
   "name": "com.ghysc.switch-attribute",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "displayName": "Switch Property Attribute",
   "description": "Adds property attributes to hide / show public fields in the inspector according to another one's value",
   "keywords": [
